@@ -1,0 +1,392 @@
+<html>
+	<head>
+		<title>
+			Earth Day 2015
+		</title>
+
+		<meta name="viewport" content="width=device-width"		/>
+		<meta name="apple-mobile-web-app-capable" content="yes"	/>
+	</head>
+	
+	<body 
+		bgcolor 	= "#000000" 
+		text		= "#777777" 
+		link		= "#99aabb"
+		alink		= "#99aabb"
+		vlink		= "#99aabb"
+		onload  	= "cells = new Cells();"  
+		onresize 	= "cells.resize 
+		( 
+		    document.body.clientWidth,
+		    document.body.clientHeight
+		);" 
+		
+	>
+		<canvas 
+			id 			= "CellsCanvas" 
+			width		= "1200" 
+			height		= "670"
+		>
+			This text is displayed if your browser does not support HTML5 Canvas.
+		</canvas>	
+
+		<script type = "text/javascript" src = "Cells.js" 			></script>
+
+<center>
+<br>
+
+<table>
+    <tr>
+        <td VALIGN=TOP width = 670 >
+            <font size = 2 color = #667788 face='arial' >Click and drag to add new cells</font>
+        </td>
+    </tr>
+</table>   
+<br>
+<br>
+<br>
+<br>
+
+<table>
+    <tr>
+        <td VALIGN=TOP width = 820 >
+            <img src = "divider.png" border = 0>
+            <br>
+            <font size = 6 color = #334455 face='arial black' >Earth Day 2015 &nbsp</font>
+            <br>
+            <font size = 2 color = #667788 face='arial' >Spherical Cellular Automata Animation by 
+                <a href = "http://www.ventrella.com" target = "_blank">Jeffrey Ventrella</a></font>
+            <br>
+            <br>
+            <img src = "divider.png" border = 0>
+        </td>
+    </tr>
+</table>   
+<!--
+<table>
+    <tr>
+        <td  VALIGN=TOP width = 660 >
+            <font size = 2 face= "Arial" >
+            One interpretation of the 
+            
+            <a href = "http://en.wikipedia.org/wiki/Gaia_hypothesis" target = "_blank">Gaia Hypothesis</a>
+            is that the Earth is not just a complex ecosystem: it is a 
+            <a href = "http://en.wikipedia.org/wiki/Superorganism"  target = "_blank">super-organism</a>. Earth 
+            
+            has a protective atmosphere with an unlikely 
+            balance of gases which can only be explained by 
+            way of some self-regulating system. Earth's
+            biosphere is 
+            
+            <a href = "http://www.columbia.edu/cu/cup/catalog/data/023110/0231102127.HTM"  target = "_blank">self-organizing</a> and works in such
+            a way as to keep its systems in some kind of meta-
+            equilibrium, broadly conducive to life.
+            </font>
+        </td>
+    </tr>
+</table>
+-->
+
+
+<br>
+
+<TABLE cellspacing = 20 >
+	<TR>
+	
+		<TD VALIGN=TOP width = 400 >
+			<font size = 4 face= "Arial" >
+			
+			Cellular Earth Animation
+			</font>
+			<br>
+			<font size = 2 face= "Arial" >
+			The animation above was created as a celebration of 
+			
+			<a href = "http://en.wikipedia.org/wiki/Earth_Day"  target = "_blank">Earth Day</a>.
+            It is updated from a 
+			<a href = "http://www.ventrella.com/earthday/earthday.html"  target = "_blank">version created in 2009</a>.
+
+			On a fast computer it should 
+			run at about 30 fames per second. 
+			<br>
+			<br>
+			
+			This is a spherical grid of 
+			<a href = "http://mathworld.wolfram.com/CellularAutomaton.html"  target = "_blank" >Cellular Automata </a>.
+			Cellular automata
+			are typically arranged on a Cartesian grid in 1, 2, or 3 dimensions, which makes it 
+			easy to compute neighbor-cell interactions. This animation uses a spherical model, which represents a 
+			
+			<a href = "http://en.wikipedia.org/wiki/Non-Euclidean_geometry"  target = "_blank">non-Euclidean</a>.
+
+			surface of positive curvature. 
+			The propagation of dynamical patterns happens in-the-round, 
+			including the unseen back-side of the sphere. 
+			<br>
+			<br>
+			The cell positions are arranged on the sphere as follows: First, twelve points are arranged in a regular, 
+			icosahedral pattern. Then a method for increasing the 
+			
+			<a href = "http://www.grunch.net/synergetics/domes/domegeo.html"  target = "_blank">geodesic frequency </a>
+			
+			is applied, whereby every pair of neighboring points gives birth to a new point lying in-between the pair. 
+			This increases the number of points to 42. 
+			<br>
+			<br>
+			This process is repeated 
+			five times to make a total of 10242 points. This is equivalent to the recursive subdivision of the triangles 
+			of an icosahedron to generate a geodesic dome.
+			<br>
+			<br>
+			<center>
+			<img src = "recursive.png" border = 0>
+			</center>
+		</td>
+		
+		<TD VALIGN=TOP width = 400 >
+			<font size = 2 face= "Arial" >
+			<br>
+			Unlike on a flat surface, points on a sphere do not tessellate with perfect regularity. 
+			This is illustrated by the geometry of geodesic domes, in which twelve of the vertices have five connecting neighbor
+			vertices, while all others have six. The resulting regions of five-fold symmetry correspond to the 
+			twelve vertices of 
+			the icosahedron. 
+			<br>
+			<br>
+			<br>
+
+			<font size = 4 face= "Arial" >
+			
+			Dymaxion map
+			</font>
+			<br>
+			<font size = 2 face= "Arial" >
+			Buckminster Fuller's 
+			
+			<a href = "http://en.wikipedia.org/wiki/Dymaxion_map"  target = "_blank">Dymaxion Map</a> 
+			provides a way for a flat image of Earth's continents to be mapped 
+			onto a sphere with less distortion than standard mappings such as the 
+			<a href = "http://en.wikipedia.org/wiki/Mercator_projection"  target = "_blank">Mercator Projection</a>
+
+			<br>
+			<br>
+
+			<a href = "http://en.wikipedia.org/wiki/Dymaxion_map"  target = "_blank"><img src = spaceship_earth.jpg border = 0></a>
+			<br>
+			<br>
+			There are of course other ways to construct a geodesic dome, based on the octahedron, tetrahedron, cube, etc. 
+		 	But
+			geodesic subdivision which is based on icosahedral symmetry provides the least distortion in the 
+			regions of the
+			"pinch points", where spherical curvature is manifested as discontinuities in the grid. 
+			</font>
+
+
+		</TD>
+		
+	</tr>
+</table>
+
+
+
+
+<br>
+<img src = "divider.png" border = 0>
+<br>
+<br>
+
+
+
+<TABLE cellspacing = 20 >
+	<TR>
+		<TD VALIGN=TOP width = 400 >
+			<font size = 4 face= "Arial" >
+			
+			Neighborhoods
+			</font>
+			<br>
+			<font size = 2 face= "Arial" >
+			The 
+			<a href = "http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target = "_blank">Game of Life</a>
+			is the 
+			most well-known cellular automaton, which uses an 8-cell neighborhood. But hexagonal grids can also be used 
+			in cellular automata. 
+			
+			In this spherical model, every neighborhood has either 5 or 6 cells - each cell corresponding to a point (vertex) 
+			on the geodesic surface. Neighborhoods are calculated based on proximity of points after each step of increasing 
+			the geodesic frequency. When the final geodesic subdivision is finished, the local neighborhood of each cell 
+			is stored in memory. This is used to apply the cellular automata rules. 
+			
+			<br>
+			</font>
+		</td>
+		
+		
+		<TD VALIGN=TOP width = 400 >
+			<font size = 4 face= "Arial" >
+			
+			The Rules
+			</font>
+
+			<br>
+			<font size = 2 face= "Arial" >
+			The interesting thing about cellular automata is the rules - the manner in which cells change their states
+			as a function of the states of their neighbors (and themselves).  
+			
+			
+			The rules in this technique are described in the following:
+			<br>
+			<br>
+			<a href = "http://link.springer.com/chapter/10.1007/978-1-84996-217-9_19"  target = "_blank">Glider Dynamics on the Sphere: Exploring Cellular Automata on Geodesic Grids</a>
+			<br>
+			<br>
+			
+			<a href = "http://www.ventrella.com/SphereCA/"  target = "_blank">Glider Dynamics on the Sphere</a>
+			<br>
+			<br>
+			
+			These rules are similar to those described in "Gliders and Riders", a chapter in the book, 
+			<a href = "http://www.springer.com/engineering/book/978-3-540-34689-0" target = "_blank">Stigmergic Optimization</a>.
+			
+			Here is a <a href = "http://www.ventrella.com/Alife/Cells/GlidersAndRiders/Cells.html" target = "_blank">Java applet</a>
+
+ 			showing this technique.
+			
+			More details on this rule system are published in the 
+			
+			<a href = "http://www.alifex.org/" target = "_blank">Artificial Life X</a>
+			
+			conference proceedings in 2006. 
+			
+			<br>
+
+		</td>
+		
+	</tr>
+</table>
+
+
+
+<br>
+<img src = "divider.png" border = 0>
+<br>
+
+
+
+<TABLE cellspacing = 20 >
+	<TR>
+		<TD VALIGN=TOP width = 400 >
+			<font size = 4 face= "Arial" >
+			Evolving Rules
+			</font>
+			
+			<font size = 2 face= "Arial" >
+			<br>
+			The rules are represented as a set of parameters - "genes" - and evolved using a genetic algorithm. 
+			To find rules which create interesting space-time patterns, the genetic algorithm has an interactive component, such that a human
+			can provide the fitness metric. 
+			A random population of individuals (represented as cellular automata rules) are generated. 
+			Then the results of randomly-selected rules are viewed and ranked as either good 
+			or bad. 
+			<br>
+			<br>
+			
+			While the cellular automaton is running, at semi-regular intervals, randomly chosen cells have their 
+			states randomly changed. This provides some 
+			stimulation, so that interesting dynamics can emerge.
+			<br>
+			<br>
+			The individuals with a good rating have a higher chance of mating 
+			with other high-ranking
+			individuals, using crossover and mutation. The fitness values of the entire population are decayed over time, 
+			with each viewing, 
+			so that aesthetic trends that may have been ranked high in the past are allowed to fade (if they have been given a 
+			good ranking, then their genes have already propagated into the present population anyway). This technique was also 
+			used to evolve 
+
+			<a href = "
+			http://www.ventrella.com/BreedingGliders/" target = "_blank">2D Cellular automata</a>.
+		</td>
+
+<br>
+
+
+		<TD VALIGN=TOP width = 400 >
+			<font size = 4 face= "Arial" >
+			Artistic Motivation
+			</font>
+			
+			<font size = 2 face= "Arial" >
+			<br>
+            One interpretation of the 
+            
+            <a href = "http://en.wikipedia.org/wiki/Gaia_hypothesis" target = "_blank">Gaia Hypothesis</a>
+            is that the Earth is not just a complex ecosystem: it is a 
+            <a href = "http://en.wikipedia.org/wiki/Superorganism"  target = "_blank">super-organism</a>. Earth 
+            
+            has a protective atmosphere with an unlikely 
+            balance of gases which can only be explained by 
+            way of some self-regulating system. Earth's
+            biosphere is 
+            
+            <a href = "http://www.columbia.edu/cu/cup/catalog/data/023110/0231102127.HTM"  target = "_blank">self-organizing</a> and works in such
+            a way as to keep its systems in some kind of meta-
+            equilibrium, broadly conducive to life.
+			<br>
+			<br>
+
+			Cellular automata appeal to the eye and mind. The dynamical movement
+			can be visually striking, evoking the chaotic churn of life. Small narratives emerge from the primordial soup,
+			and sometimes reveal a bigger story. 
+			<br>
+			<br>
+			The creation of this sphere of cellular automata - rendered 
+			in Earth tones - is a way for me to share my 
+			vision of Earth as a delicate sphere of interacting cells. 
+			Earth is an exquisite super-organism in constant motion. 
+			<br>
+			<br>
+			-Jeffrey
+		</td>
+	</tr>
+</table>
+			
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <font size = 4 face= "Arial" >
+        See the Tool for Breeding Gliders
+        </font>
+        <br>
+        <br>
+        <a href = "http://www.ventrella.com/BreedingGliders" target = "_blank"><img src = "breeding.png" border = 0></a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <font size = 4 face= "Arial" >
+        See the Video showing Glider Dynamics on a Geodesic Grid
+        </font>
+        <br>
+        <br>
+        <object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/0TGNg8CGWoE&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/0TGNg8CGWoE&hl=en&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+        <br>
+        <br>
+        <br>
+        
+        
+        <br>
+        <a href = "http://www.ventrella.com/" target = "_blank">www.Ventrella.com</a>
+        <br>
+        <br>
+        <br>
+        
+        </font>
+
+        </center>
+	</body>
+</html>
